@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--<listeners>
+    <listener class-name="org.learning.listeners.ListenerProvider"></listener>
+</listeners>-->
+    <test verbose="2" preserve-order="true" name="C:/Learning/IntelliJWorkspace/SeleniumAutomationFramework"
+          thread-count="2" parallel="methods">
+        <classes>
+            <class name="org.learning.tests.DockerTest"/>
+           </classes>
+    </test>
+</suite>
